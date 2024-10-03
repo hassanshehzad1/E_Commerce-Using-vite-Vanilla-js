@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E commerce WebSite</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="shortcut icon"
+      href="/public/Images/logo.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="resp.css" />
+  </head>
+  <body>
+    <header class="ninty">
+      <div class="top_header">
+        <div class="left_head">
+          <p>Free Shipping 30 days, return or refund gurantee</p>
+        </div>
+        <div class="right_head">
+          <p>Sign In</p>
+          <p>Sign Up</p>
+        </div>
+      </div>
+
+      <div class="navBar ninty">
+        <div class="logo_nav">
+          <h1>
+            <span class="left_logo">Hassan</span
+            ><span class="store">Store</span>
+          </h1>
+        </div>
+        <div class="Nav_list">
+          <nav>
+            <ul class="ul_navbar">
+              <li class="nav_list"><a href="/">Home</a></li>
+              <li class="nav_list">About</li>
+              <li class="nav_list"><a href="addToCart.html">Products</a></li>
+              <li class="nav_list"><a href="Contact.html">Contact</a></li>
+              <li class="nav_list last">
+                <a href="addToCart.html">
+                  <div class="cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <p class="cart" id="navCartValue">0</p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main class="ninty margin_top">
+      <div class="hero_section">
+        <div class="left_content">
+          <p class="welcome_text">Welcome to My Store!</p>
+          <h2 class="my_name">Hello! I’m Hassan Shehzad</h2>
+          <p class="lower_text">
+            A passionate software engineer dedicated to providing you with the
+            best online shopping experience. With a focus on quality and
+            innovation, I've curated a selection of products designed to meet
+            your needs and enhance your lifestyle.
+          </p>
+        </div>
+        <div class="right_content">
+          <img src="/public/Images/beautyprocust.png" alt="" />
+        </div>
+      </div>
+    </main>
+
+    <!-- Shopping three divs -->
+    <section class=" content">
+      <div class="three_divs">
+      <!-- Each div -->
+      <div class="each_div_Shop">
+        <!-- left div -->
+        <div class="left_div">
+          <p class="card_left_text">New Sale</p>
+          <h2>Get Extra 50% Off</h2>
+          <p class="btn_div">Shop Now</p>
+        </div>
+        <!-- right div -->
+        <div class="right_div">
+          <img src="/public/Images/coffer.png" alt="" />
+        </div>
+      </div>
+      <!-- Each div -->
+      <div class="each_div_Shop">
+        <!-- left div -->
+        <div class="left_div">
+          <p class="card_left_text">New Sale</p>
+          <h2>Get Extra 50% Off</h2>
+          <p class="btn_div">Shop Now</p>
+        </div>
+        <!-- right div -->
+        <div class="right_div">
+          <img src="/public/Images/computers_3.png" alt="" />
+        </div>
+      </div>
+      <!-- Each div -->
+      <div class="each_div_Shop">
+        <!-- left div -->
+        <div class="left_div">
+          <p class="card_left_text">New Sale</p>
+          <h2>Get Extra 50% Off</h2>
+          <p class="btn_div">Shop Now</p>
+        </div>
+        <!-- right div -->
+        <div class="right_div">
+          <img src="/public/Images/pefume.png" alt="" />
+        </div>
+      </div>
+    </div>
+    </section>
+
+    <!-- Four divs Sectionm -->
+    <section class="four_div_section">
+      <div class="four_divs content">
+        <div class="each_div_four">
+          <div class="left_image">
+            <i class="fa-solid fa-truck"></i>
+          </div>
+          <div class="right_content_four">
+            <p>World wide Shopping</p>
+            <p>Order Above $50</p>
+          </div>
+        </div>
+        <div class="each_div_four">
+          <div class="left_image">
+            <i class="fa-solid fa-rotate-left"></i>
+          </div>
+          <div class="right_content_four">
+            <p>Easy 10 Days return</p>
+            <p>back return 2 days</p>
+          </div>
+        </div>
+        <div class="each_div_four">
+          <div class="left_image">
+            <i class="fa-solid fa-money-check-dollar"></i>
+          </div>
+          <div class="right_content_four">
+            <p>Money Back Gurantee</p>
+            <p>Gurantee with 5 days</p>
+          </div>
+        </div>
+        <div class="each_div_four">
+          <div class="left_image">
+            <i class="fa-solid fa-globe"></i>
+          </div>
+          <div class="right_content_four">
+            <p>Online Services</p>
+            <p>24/7 Services</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Check Out Section -->
+    <section class="checkout_section content">
+      <h2 class="heading_two">Checkout Hassan Store</h2>
+      <!-- Our Cards Sectiion -->
+      <div class="cards_Template_outer" id="cards_template_box_outer"></div>
+    </section>
+
+    <!-- Template Section -->
+    <template id="product_template_tag">
+      <div class="cards_tamplate_inner" id="cards_tamplate_inner">
+        <!-- Each Article -->
+        <article class="each_card" id="cardValue">
+          <!-- Card ctaegory -->
+          <span class="category"> category </span>
+          <!-- Image -->
+          <div class="image_card">
+            <img src="" alt="" id="image" />
+          </div>
+          <!-- card product name -->
+          <h2 class="card_heading product_name"></h2>
+          <!-- product rating  -->
+          <div class="prodduct_rating">
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+
+          <!-- Product detail -->
+          <div class="card_product_detail"></div>
+
+          <!-- card produt price -->
+          <div class="card_product_price">
+            <p class="actual_price">9000</p>
+            <p class="discount_price">9000</p>
+          </div>
+
+          <!-- Stocks Availabe -->
+          <div class="stocks_available">
+            <p class="total_stocks_text">Total Stocks Available</p>
+            <p class="total_stocks_value">8</p>
+          </div>
+
+          <!-- Quantity products -->
+          <div class="quantity_product">
+            <p>Quantity(Required)</p>
+            <div class="quantity_btns">
+              <button class="each_quantity_btn product_inc">+</button>
+              <button class="each_quantity_btn product_chose">1</button>
+              <button class="each_quantity_btn product_dec">-</button>
+            </div>
+          </div>
+
+          <!-- Add to cart btn -->
+          <div class="add_to_cart_btn show" id="showToast">
+            <button id="addToCart" class="show">
+              <i class="fa-solid fa-cart-shopping"></i>
+              Add to Cart
+            </button>
+          </div>
+        </article>
+      </div>
+    </template>
+    <!-- hassan why section -->
+    <section class="why_section content">
+      <h2 class="heading_two">Why Choose hassan Store</h2>
+      <p>
+        At Hassan Store, quality is our top priority. We carefully curate our
+        products from trusted brands and suppliers to ensure that every item
+        meets our high standards.
+      </p>
+
+      <!-- 3by3  -->
+
+      <div class="three_by_three">
+        <div class="three_divs_grid_each">
+          <div class="each_div_three_by_three">
+            <h3 class="heading_three">Quality Products</h3>
+            <p>
+              Highlight the superior quality of the products you offer.
+              Customers want to feel confident they are buying durable,
+              reliable, and premium items. Example: “At Hassan Store, quality is
+              our top priority. We carefully curate our products from trusted
+              brands and suppliers to ensure that every item meets our high
+              standards.
+            </p>
+          </div>
+          <div class="each_div_three_by_three">
+            <h3 class="heading_three">Competitive Pricing & Value</h3>
+            <p>
+              If you offer great prices or excellent value for the quality, this
+              is something customers will want to know upfront. Example: “We
+              believe that great products shouldn’t break the bank. That’s why
+              we offer competitive pricing without compromising on quality.
+              Enjoy the best deals and special offers year-round, making luxury
+              affordable for everyone.”
+            </p>
+          </div>
+          <div class="each_div_three_by_three">
+            <h3 class="heading_three">Fast & Reliable Shipping</h3>
+            <p>
+              Shipping speed and reliability are critical factors for online
+              shoppers. If you have an edge here, mention it! Example: “Fast and
+              reliable shipping is part of our commitment to you. At Hassan
+              Store, we work hard to ensure that your order reaches you as
+              quickly as possible. Enjoy free shipping on orders over [amount]
+              and track your order every step of the way.”
+            </p>
+          </div>
+        </div>
+        <div class="image_of_three_divs_grid">
+          <img
+            src="/public/Images/—Pngtree—cartoon man working_4404248.png"
+            alt=""
+          />
+        </div>
+        <div class="three_divs_grid_each">
+          <div class="each_div_three_by_three">
+            <h3 class="heading_three">Exceptional Customer Service</h3>
+            <p>
+              Many customers choose stores based on how well they are treated.
+              Highlight your commitment to customer satisfaction. Example: “Our
+              dedicated customer service team is always here to help. From
+              answering product questions to assisting with orders, we strive to
+              provide a seamless shopping experience. Your satisfaction is our
+              success, and we’re here to support you at every step.”
+            </p>
+          </div>
+          <div class="each_div_three_by_three">
+            <h3 class="heading_three">Secure Shopping Experience</h3>
+            <p>
+              Customers want to feel safe shopping online. Make sure to
+              highlight the security measures you have in place. Example: “Shop
+              with confidence at Hassan Store. Our website is built with the
+              latest security protocols to ensure that your personal and payment
+              information is always safe. We use encrypted payment gateways and
+              prioritize your privacy.”
+            </p>
+          </div>
+          <div class="each_div_three_by_three">
+            <h3 class="heading_three">Unique Selection</h3>
+            <p>
+              If you offer exclusive or hard-to-find products, this is a great
+              selling point. Example: “At Hassan Store, we offer a carefully
+              selected range of products you won’t find anywhere else. Whether
+              it’s limited-edition items, exclusive brands, or unique pieces, we
+              bring you something special that stands out from the crowd.”
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer section -->
+    <footer class="footer_section ninty">
+      <div class="four_grid_section content">
+        <div class="each_footer_div">
+          <div class="logo_nav">
+            <h1>
+              <span class="left_logo">Hassan</span
+              ><span class="store">Store</span>
+            </h1>
+          </div>
+          <div class="footer_content">
+            <p>
+              Welcome to Hassan Store, Your Ultimate desitnation for cutting
+              edge
+            </p>
+          </div>
+          <div class="image">
+            <img src="/public/Images/cards.png" alt="logo" />
+          </div>
+        </div>
+        <div class="each_footer_div">
+          <ul class="ul">
+            <h2 class="heading_two">Shopping</h2>
+            <li>Computer Store</li>
+            <li>Laptop Store</li>
+            <li>Accesories</li>
+            <li>Sales And Discount</li>
+          </ul>
+        </div>
+        <div class="each_footer_div">
+          <ul class="ul">
+            <h2 class="heading_two">Experience</h2>
+            <li>Contact Us</li>
+            <li>Payment Method</li>
+            <li>Delivery</li>
+            <li>Return And Exchnage</li>
+          </ul>
+        </div>
+        <div class="each_footer_div">
+          <ul class="ul">
+            <h2 class="heading_two">NewsLetter</h2>
+            <li>Computer Store</li>
+            <li>Laptop Store</li>
+            <li>Accesories</li>
+            <li>Sales And Discount</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="myself">
+        <p>design and code by Hassan Shehzad</p>
+      </div>
+    </footer>
+    <!-- Toast Notifictaion -->
+
+    <div id="toast">
+      <div id="img"><i class="fa-solid fa-cart-shopping"></i></div>
+      <div id="desc">A notification message..</div>
+    </div>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>

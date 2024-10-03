@@ -1,0 +1,138 @@
+[
+  {
+    "productId": 1,
+    "productName": "Beauty Products",
+    "productCategory": "Beauty",
+    "productPrice": 2500,
+
+    "productStock": 20,
+    "productDescription": "assorted cosmetics, Cosmetics Toiletry bag Make-up Beauty, Pink cosmetic bag, face, baby, perfume png",
+    "img": "dist/Images/beautyprocust.png"
+  },
+  {
+    "productId": 2,
+    "productName": "Coffee",
+    "productCategory": "Drinks",
+    "productPrice": 1500,
+    "productStock": 10,
+    "productDescription": "Coffee is a beverage brewed from the roasted and ground seeds of the tropical evergreen coffee plant. Coffee is one of the three most popular beverages in the world (alongside water and tea), and it is one of the most profitable international commodities.",
+    "img": "public/Images/coffe.png"
+  },
+  {
+    "productId": 3,
+    "productName": "Delilous Coffee",
+    "productCategory": "Drinks",
+    "productPrice": 2500,
+    "productStock": 12,
+    "productDescription": "Coffee is a beverage brewed from the roasted and ground seeds of the tropical evergreen coffee plant. Coffee is one of the three most popular beverages in the world (alongside water and tea), and it is one of the most profitable international commodities.",
+    "img": "public/Images/coffer.png"
+  },
+  {
+    "productId": 4,
+    "productName": "Computer",
+    "productCategory": "Compter",
+    "productPrice": 3400,
+    "productStock": 22,
+    "productDescription": "A computer is a machine that can store and process information. Most computers rely on a binary system, which uses two variables, 0 and 1, to complete tasks such as storing data, calculating algorithms, and displaying information.",
+    "img": "public/Images/computers_3.png"
+  },
+  {
+    "productId": 5,
+    "productName": "Shampo",
+    "productCategory": "Beauty",
+    "productPrice": 1400,
+    "productStock": 32,
+    "productDescription": ", a cosmetic product is any substance or mixture intended to be placed in contact with the external parts of the human body, with the exclusive or with main objective of cleaning, changing the look, protecting and maintaining good condition, or eliminating body odors.and displaying information.",
+    "img": "public/Images/Daco_379805.png"
+  },
+  {
+    "productId": 6,
+    "productName": "Men Dress",
+    "productCategory": "Dress",
+    "productPrice": 5400,
+    "productStock": 12,
+    "productDescription": ",Clothing (also known as clothes, garments, dress, apparel, or attire) is any item worn on the body. Typically, clothing is made of fabrics or textiles, but over time it has included garments made from animal skin and other thin sheets of materials and natural products found in the environment, put together.",
+    "img": "public/Images/dress men.png"
+  },
+  {
+    "productId": 7,
+    "productName": "Dresses",
+    "productCategory": "Dress",
+    "productPrice": 9400,
+    "productStock": 10,
+    "productDescription": ",Clothing (also known as clothes, garments, dress, apparel, or attire) is any item worn on the body. Typically, clothing is made of fabrics or textiles, but over time it has included garments made from animal skin and other thin sheets of materials and natural products found in the environment, put together.",
+    "img": "public/Images/dress.png"
+  },
+  {
+    "productId": 8,
+    "productName": "laptop",
+    "productCategory": "computers",
+    "productPrice": 1900,
+    "productStock": 10,
+    "productDescription": "A computer is a machine that can store and process information. Most computers rely on a binary system, which uses two variables, 0 and 1, to complete tasks such as storing data, calculating algorithms, and displaying information.",
+    "img": "public/Images/laptop.png"
+  },
+  {
+    "productId": 9,
+    "productName": "mobiles",
+    "productCategory": "computers",
+    "productPrice": 1900,
+    "productStock": 10,
+    "productDescription": "A computer is a machine that can store and process information. Most computers rely on a binary system, which uses two variables, 0 and 1, to complete tasks such as storing data, calculating algorithms, and displaying information.",
+    "img": "public/Images/mobiles (2).png"
+  },
+  {
+    "productId": 10,
+    "productName": "mobiles",
+    "productCategory": "computers",
+    "productPrice": 2900,
+    "productStock": 11,
+    "productDescription": "A computer is a machine that can store and process information. Most computers rely on a binary system, which uses two variables, 0 and 1, to complete tasks such as storing data, calculating algorithms, and displaying information.",
+    "img": "public/Images/mobiles.png"
+  },
+  {
+    "productId": 11,
+    "productName": "Perfume",
+    "productCategory": "Beauty",
+    "productPrice": 3900,
+    "productStock": 17,
+    "productDescription": ", a cosmetic product is any substance or mixture intended to be placed in contact with the external parts of the human body, with the exclusive or with main objective of cleaning, changing the look, protecting and maintaining good condition, or eliminating body odors.and displaying information.",
+    "img": "public/Images/perfume.png"
+  },
+  {
+    "productId": 12,
+    "productName": "Perfume Extra",
+    "productCategory": "Beauty",
+    "productPrice": 4900,
+    "productStock": 19,
+    "productDescription": ", a cosmetic product is any substance or mixture intended to be placed in contact with the external parts of the human body, with the exclusive or with main objective of cleaning, changing the look, protecting and maintaining good condition, or eliminating body odors.and displaying information.",
+    "img": "public/Images/pefume.png"
+  },
+  {
+    "productId": 13,
+    "productName": "Shoes",
+    "productCategory": "Clothing",
+    "productPrice": 4900,
+    "productStock": 19,
+    "productDescription": ", a cosmetic product is any substance or mixture intended to be placed in contact with the external parts of the human body, with the exclusive or with main objective of cleaning, changing the look, protecting and maintaining good condition, or eliminating body odors.and displaying information.",
+    "img": "public/Images/shoes 2.png"
+  },
+  {
+    "productId": 13,
+    "productName": "Shoes style",
+    "productCategory": "Clothing",
+    "productPrice": 4900,
+    "productStock": 19,
+    "productDescription": ", a cosmetic product is any substance or mixture intended to be placed in contact with the external parts of the human body, with the exclusive or with main objective of cleaning, changing the look, protecting and maintaining good condition, or eliminating body odors.and displaying information.",
+    "img": "public/Images/shoes.png"
+  },
+  {
+    "productId": 15,
+    "productName": "Shopping Procus",
+    "productCategory": "Sports",
+    "productPrice": 4900,
+    "productStock": 19,
+    "productDescription": ", a cosmetic product is any substance or mixture intended to be placed in contact with the external parts of the human body, with the exclusive or with main objective of cleaning, changing the look, protecting and maintaining good condition, or eliminating body odors.and displaying information.",
+    "img": "public/Images/shooping_procus.png"
+  }
+]

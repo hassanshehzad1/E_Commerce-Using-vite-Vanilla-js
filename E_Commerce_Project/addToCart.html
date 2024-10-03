@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E commerce WebSite</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="shortcut icon"
+      href="/public/Images/logo.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="resp.css">
+  </head>
+  <body>
+    <header class="ninty">
+      <div class="top_header">
+        <div class="left_head">
+          <p>Free Shipping 30 days, return or refund gurantee</p>
+        </div>
+        <div class="right_head">
+          <p>Sign In</p>
+          <p>Sign Up</p>
+        </div>
+      </div>
+
+      <div class="navBar ninty">
+        <div class="logo_nav">
+          <h1>
+            <span class="left_logo">Hassan</span
+            ><span class="store">Store</span>
+          </h1>
+        </div>
+        <div class="Nav_list">
+          <nav>
+            <ul class="ul_navbar">
+              <li class="nav_list"><a href="/">Home</a></li>
+              <li class="nav_list">About</li>
+              <li class="nav_list"><a href="addToCart.html">Products</a></li>
+              <li class="nav_list"><a href="Contact.html">Contact</a></li>
+              <li class="nav_list last">
+                <a href="addToCart.html">
+                  <div class="cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <p class="cart" id="navCartValue">0</p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <section class="add_to_cart_section">
+      <div class="add_to_card_template_outer content"></div>
+    </section>
+    <!-- Add to cart template -->
+    <template class="add_to_cart_template content">
+      <!-- Each Article -->
+      <article class="each_card_cart " id="cardValue">
+        <!-- Card ctaegory -->
+        <div class="category_cart_div">
+          <span class="category_cart"> </span>
+        </div>
+        <!-- Image -->
+        <div class="image_card_cart">
+          <img src="" alt="" id="image_cart" />
+        </div>
+        <!-- card product name -->
+         <div class="card_heading_cart_div">
+        <h2 class="card_heading_cart product_name"></h2>
+      </div>
+        <!-- card produt price -->
+        <div class="card_product_price_cart">
+          <p class="actual_price cart_actual_price"></p>
+        </div>
+
+        <!-- Quantity products -->
+        <div class="quantity_product_cart">
+          <div class="quantity_btns" id="quantity_btns_cart">
+            <button class="each_quantity_btn product_inc">+</button>
+            <button class="each_quantity_btn product_chose add_to_cart_quant">
+              1
+            </button>
+            <button class="each_quantity_btn product_dec">-</button>
+          </div>
+        </div>
+
+        <!-- Add to cart btn -->
+        <div class="add_to_cart_btn_cart" id="add_to_cart_btn">
+          <button class="trash_btn">
+            <i class="fa-solid fa-trash"></i>
+            Remove
+          </button>
+        </div>
+      </article>
+    </template>
+
+    <!-- Total croduct details prices-->
+    <section class="total_products_details_prices content">
+      <div class="total_products_details_prices_div">
+        <h2>Customers Bills</h2>
+
+        <div class="total_bill_div total_bill_flex">
+          <p class="total_bill">Sub_total</p>
+          <p class="total_bill_val">0</p>
+        </div>
+
+        <div class="add_tax_div total_bill_flex">
+          <p>Tax</p>
+          <p class="tax_value">$0</p>
+        </div>
+        <hr />
+
+        <div class="final_price_div total_bill_flex">
+          <p>Final Price</p>
+          <p class="final_price_val">0</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer section -->
+    <footer class="footer_section ninty">
+      <div class="four_grid_section content">
+        <div class="each_footer_div">
+          <div class="logo_nav">
+            <h1>
+              <span class="left_logo">Hassan</span
+              ><span class="store">Store</span>
+            </h1>
+          </div>
+          <div class="footer_content">
+            <p>
+              Welcome to Hassan Store, Your Ultimate desitnation for cutting
+              edge
+            </p>
+          </div>
+          <div class="image">
+            <img src="/public/Images/cards.png" alt="logo" />
+          </div>
+        </div>
+        <div class="each_footer_div">
+          <ul class="ul">
+            <h2 class="heading_two">Shopping</h2>
+            <li>Computer Store</li>
+            <li>Laptop Store</li>
+            <li>Accesories</li>
+            <li>Sales And Discount</li>
+          </ul>
+        </div>
+        <div class="each_footer_div">
+          <ul class="ul">
+            <h2 class="heading_two">Experience</h2>
+            <li>Contact Us</li>
+            <li>Payment Method</li>
+            <li>Delivery</li>
+            <li>Return And Exchnage</li>
+          </ul>
+        </div>
+        <div class="each_footer_div">
+          <ul class="ul">
+            <h2 class="heading_two">NewsLetter</h2>
+            <li>Computer Store</li>
+            <li>Laptop Store</li>
+            <li>Accesories</li>
+            <li>Sales And Discount</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="myself">
+        <p>design and code by Hassan Shehzad</p>
+      </div>
+    </footer>
+ 
+    <!-- Toast Notifictaion -->
+
+    <div id="toast">
+      <div id="img"><i class="fa-solid fa-cart-shopping"></i></div>
+      <div id="desc">A notification message..</div>
+    </div>
+
+    <script type="module" src="addToCartButtonDataDisplay.js"></script>
+  </body>
+</html>
